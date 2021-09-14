@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia no site</title>
+</head>
+<body>
+    <h2>Colocar imagens dinamicas</h2>
+    <p>teste de imagens!!!</p>
+
+
+    <h2>Reprodução de Audios Classicos</h2>
+    <p>Vamos ouvir um som legal neste site</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/night.mp3" type="audio/mpeg">
+    </audio>
+    <audio src="audio/alone.mp3" controls autoplay></audio>
+    <!--MP3 , WAV, OGG -- FORMATOS DE AUDIO POR SEGURANÇA FUNCIONAR EM TODOS OS NAVEGADORES-->
+
+
+    <h2>Colocando Videos</h2>
+    <p>Este video esta hospedado em meu próprio servidor</p>
+    <video src="video/meidentifico-youtube720.m4v" width="250" controls></video>
+    
+    <video width="250" poster="img/IMG_20210521_161047616.jpg" controls>
+        <source src="video/childandhorse-youtube720.m4v" type="video/mp4">
+        <!-- <source src="video/childandhorse-youtube720.mp4" type="video/mp4"> -->
+        <!-- <source src="video/childandhorse-youtube720.webm" type="video/webm"> -->
+        <!-- <source src="video/childandhorse-youtube720.ogv" type="video/ogg"> -->
+        <p>Seu navegador nao tem compatibilidade com reprodução de videos</p>
+    </video>
+</body>
+</html>
